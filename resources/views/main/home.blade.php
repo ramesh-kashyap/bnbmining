@@ -22,7 +22,7 @@
                 <div class="login-form">
 
                   
-                    <form class="authorization">
+                    <div class="authorization">
                         <h3>Login</h3>
                         {{ csrf_field() }}
 
@@ -40,7 +40,7 @@
                                 style="color: white; margin-left: 40px;">Register Here</a>
                         </div>
 
-                    </form>
+</div>
 
 
                 </div>
@@ -171,7 +171,6 @@
 </main>
 <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 
 <!-- Login 16 end -->
 <script>

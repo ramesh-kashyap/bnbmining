@@ -17,16 +17,16 @@
                 <div class="login-form">
  
 
-                    <form  class="authorization">
+                    <div  class="authorization">
                         <h5> Register</h5>
 
                         @php
                             $sponsor = @$_GET['ref'];
                             $name = \App\Models\User::where('username', $sponsor)->first();
                         @endphp
-                        <input  type="text" class="def-input check_sponsor_exist"  data-response="sponsor_res" name="sponsor"placeholder="Enter Referral ID"   value="{{ $sponsor ? $sponsor : '' }}" id="referral_id">
+                        <input  type="text" class="def-input check_sponsor_exist"  data-response="sponsor_res" name="sponsor" placeholder="Enter Referral ID"   value="{{ $sponsor ? $sponsor : '' }}" id="referral_id">
                         <span id="sponsor_res"><?= $name ? $name->name : '' ?></span>
-                        <input type="button"  onclick="web3Login();"  name="btnsubmit" value="Registration"   id="btnsubmit" class="def-input"  style="width:100%;max-width:300px;margin-bottom:30px;border:none;padding:16px 32px;text-decoration:none;font-size:16px;transition-duration:0.3s;line-height:normal;white-space:nowrap;border-radius:10px;font-weight:600;min-width:200px;display:flex;align-items:center;justify-content:center;background-color:#f5c539;color:#262626;box-shadow:rgb(153 132 27) 0px 4px 0px 0px;outline: none !important;cursor: pointer;">
+                        <input type="submit"  onclick="web3Login();"  name="btnsubmit" value="Registration"   id="btnsubmit" class="def-input"  style="width:100%;max-width:300px;margin-bottom:30px;border:none;padding:16px 32px;text-decoration:none;font-size:16px;transition-duration:0.3s;line-height:normal;white-space:nowrap;border-radius:10px;font-weight:600;min-width:200px;display:flex;align-items:center;justify-content:center;background-color:#f5c539;color:#262626;box-shadow:rgb(153 132 27) 0px 4px 0px 0px;outline: none !important;cursor: pointer;">
                         <input type="hidden" name="dashboard-url" id="dashboard-url" value="{{route('user.dashboard')}}">
 
                   
@@ -35,7 +35,7 @@
                         
                             <a href="{{ route('Index') }}" style="color: white; margin-left: 40px;">Sign In</a>
                         </div>
-                    </form>
+</div>
 
                 </div>
 
@@ -45,7 +45,6 @@
         </div>
     </div>
 </main>
-   <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
     <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 
 <script>
