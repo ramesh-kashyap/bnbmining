@@ -22,7 +22,7 @@
                 <div class="login-form">
 
                   
-                    <form class="authorization">
+                    <div class="authorization">
                         <h3>Login</h3>
                         {{ csrf_field() }}
 
@@ -40,7 +40,7 @@
                                 style="color: white; margin-left: 40px;">Register Here</a>
                         </div>
 
-                    </form>
+</div>
 
 
                 </div>
@@ -171,7 +171,6 @@
 </main>
 <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
 
 <!-- Login 16 end -->
 <script>
@@ -232,56 +231,56 @@
         }
     </script>
     <style>
-        /* Style for h3 tags */
+        / Style for h3 tags /
 #main h3 {
-    font-size: 24px; /* Adjusts the font size */
-    font-weight: 600; /* Makes the text bold */
-    margin-bottom: 15px; /* Adds space below the heading */
-    text-align: center; /* Centers the text */
-    line-height: 1.4; /* Adjusts the line height for better readability */
+    font-size: 24px; / Adjusts the font size /
+    font-weight: 600; / Makes the text bold /
+    margin-bottom: 15px; / Adds space below the heading /
+    text-align: center; / Centers the text /
+    line-height: 1.4; / Adjusts the line height for better readability /
 }
 
-/* Style for p tags */
+/ Style for p tags /
 #main p {
-    font-size: 16px; /* Sets a comfortable font size */
-    margin-bottom: 15px; /* Adds space below the paragraph */
-    text-align: center; /* Centers the text */
-    line-height: 1.6; /* Increases line spacing for better readability */
+    font-size: 16px; / Sets a comfortable font size /
+    margin-bottom: 15px; / Adds space below the paragraph /
+    text-align: center; / Centers the text /
+    line-height: 1.6; / Increases line spacing for better readability /
 }
 
-/* Additional styling for specific sections */
+/ Additional styling for specific sections /
 #main .short-description p {
-    font-size: 18px; /* Slightly larger text for the short description */
+    font-size: 18px; / Slightly larger text for the short description /
 }
 
 #main .login-form h5 {
-    font-size: 20px; /* Adjusts the font size */
-    margin-bottom: 10px; /* Adds space below the heading */
-    text-align: left; /* Aligns text to the left */
+    font-size: 20px; / Adjusts the font size /
+    margin-bottom: 10px; / Adds space below the heading /
+    text-align: left; / Aligns text to the left /
 }
 
 #main .referral-description h5,
 #main .description-tasks h5 {
-    font-size: 22px; /* Adjusts the font size for section headings */
-    font-weight: 700; /* Bolder text */
-    margin-bottom: 10px; /* Adds space below the heading */
-    text-align: center; /* Centers the text */
+    font-size: 22px; / Adjusts the font size for section headings /
+    font-weight: 700; / Bolder text /
+    margin-bottom: 10px; / Adds space below the heading /
+    text-align: center; / Centers the text /
 }
 
 #main .referral-description p,
 #main .description-tasks p {
-    font-size: 16px; /* Sets a comfortable font size */
-    line-height: 1.5; /* Adjusts line spacing for readability */
-    margin-bottom: 20px; /* Adds space below the paragraph */
+    font-size: 16px; / Sets a comfortable font size /
+    line-height: 1.5; / Adjusts line spacing for readability /
+    margin-bottom: 20px; / Adds space below the paragraph /
 }
 
-/* Responsive adjustments */
+/ Responsive adjustments /
 @media (max-width: 768px) {
     #main h3 {
-        font-size: 22px; /* Slightly reduces font size on smaller screens */
+        font-size: 22px; / Slightly reduces font size on smaller screens /
     }
     #main p {
-        font-size: 15px; /* Slightly reduces font size on smaller screens */
+        font-size: 15px; / Slightly reduces font size on smaller screens /
     }
 }
 
