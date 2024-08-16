@@ -1,0 +1,622 @@
+/* tasks */
+
+#tasks>.tasks {
+    width: 70%;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #tasks>.tasks {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+
+/* task menu section */
+
+#task_menu {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+#task_menu .balances {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.balances .main-balance {
+    margin-right: 20px;
+}
+
+.balances .main-balance,
+.balances .advt-balance {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advt-balance div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.advt-balance div img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.advt-balance div p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    line-height: 0;
+}
+
+.advt-balance p span {
+    color: #bdc1c7;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.advt-balance div a {
+    min-width: auto;
+    padding: 10px 15px;
+}
+
+.advt-balance div a i {
+    margin-right: 0;
+}
+
+#task_menu .task-navigation-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-navigation-buttons div {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.task-navigation-buttons div:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #task_menu {
+        margin: 25px auto 70px;
+    }
+
+    #task_menu .balances {
+        flex-direction: column;
+    }
+
+    #task_menu .balances .main-balance {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #task_menu .task-navigation-buttons {
+        flex-direction: column;
+    }
+
+    .task-navigation-buttons div {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .task-navigation-buttons div:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/* task_list section */
+
+#task_list {
+    margin-bottom: 65px;
+}
+
+#task_list .about-tasks {
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.about-tasks i {
+    color: indianred;
+    margin-right: 10px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+}
+
+.about-tasks p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.about-tasks p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+#task_list .title {
+    margin-bottom: 30px;
+}
+
+#task_list .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#task_list .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.task-list .no-tasks-available {
+    background-color: #262626;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px auto 0;
+}
+
+.task-list .no-tasks-available p {
+    font-size: 22px;
+    color: #f5c539;
+    letter-spacing: 1px;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.task-list .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.task-list .task:last-child {
+    margin-bottom: 0;
+}
+
+.task-list .task p {
+    font-size: 18px;
+    max-width: 75%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+.task-list .task p i {
+    color: indianred;
+    background-color: #2e2e2e;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 55px;
+    text-align: center !important;
+}
+
+.task-list .task a {
+    min-width: auto;
+    padding: 15px 20px;
+}
+
+.task-list .task a i {
+    margin-right: 0;
+}
+
+.task-list .task .task-timer {
+    background-color: #2e2e2e;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 70px;
+    min-height: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.task-list .task .task-timer p {
+    max-width: 100%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #b1b1b1;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.task-list .task button {
+    min-width: auto;
+    margin-left: 20px;
+}
+
+.task-list .task img {
+    width: 100%;
+    background-color: #2e2e2e;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #task_list {
+        margin-bottom: 25px;
+    }
+
+    .task-list .no-tasks-available {
+        margin-bottom: 25px;
+    }
+
+}
+
+/* topup advt_balance section */
+
+#topup {
+    margin-bottom: 65px;
+}
+
+#topup .title {
+    margin-bottom: 30px;
+}
+
+#topup .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#topup .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+#topup .address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#topup .description {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#topup .description p {
+    line-height: 1.7;
+    letter-spacing: .7px;
+    font-size: 18px;
+}
+
+#topup .description p span {
+    color: indianred;
+    font-weight: 500;
+}
+
+#topup .qr-code {
+    background-color: #262626;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #topup {
+        margin-bottom: 25px;
+    }
+
+}
+
+/* add_task section */
+
+#add_task {
+    margin-bottom: 70px;
+}
+
+#add_task .about-adding-task {
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.about-adding-task i {
+    color: indianred;
+    margin-right: 10px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+}
+
+.about-adding-task p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.about-adding-task p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+#add_task .title {
+    margin-bottom: 30px;
+}
+
+#add_task .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#add_task .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.task-adding-form p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: .7px;
+    line-height: 1.2;
+    border-left: 3px solid #262626;
+    padding-left: 10px;
+}
+
+.task-adding-form input {
+    margin-bottom: 30px;
+}
+
+.task-adding-form .select {
+    margin-bottom: 30px;
+}
+
+.task-adding-form .task-cost {
+    margin-top: -15px;
+}
+
+.task-cost span {
+    font-size: 20px;
+    font-family: "Arsenal SC", sans-serif;
+    text-transform: uppercase;
+}
+
+.task-cost span .trx {
+    color: indianred;
+    font-weight: 600;
+}
+
+.task-adding-form .button-group {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-adding-form .button-group button,
+.task-adding-form .button-group a {
+    width: 100%;
+    margin-right: 30px;
+}
+
+.task-adding-form .button-group a:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #add_task {
+        margin-bottom: 25px;
+    }
+
+    .task-adding-form .button-group {
+        flex-direction: column;
+    }
+
+    .task-adding-form .button-group button,
+    .task-adding-form .button-group a {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .task-adding-form .button-group a:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/* own_tasks section */
+
+#own_tasks {
+    margin-bottom: 70px;
+}
+
+#own_tasks .about-editing-task {
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.about-editing-task i {
+    color: indianred;
+    margin-right: 10px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+}
+
+.about-editing-task p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+#own_tasks .title {
+    margin-bottom: 30px;
+}
+
+#own_tasks .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#own_tasks .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.list-my-tasks .no-tasks-added {
+    background-color: #262626;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px auto 0;
+}
+
+.no-tasks-added p {
+    font-size: 22px;
+    color: #f5c539;
+    letter-spacing: 1px;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.list-my-tasks .my-tasks {
+    background-color: #262626;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.my-tasks p {
+    font-size: 18px;
+    white-space: nowrap;
+    max-width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+}
+
+.my-tasks p i {
+    color: indianred;
+    background-color: #2e2e2e;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 55px;
+    text-align: center !important;
+}
+
+.my-tasks p a {
+    color: #e6e6e6;
+}
+
+.my-tasks p a:hover {
+    color: indianred;
+}
+
+.my-tasks p span {
+    font-family: "Arsenal SC", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #bdc1c7;
+    font-weight: 600;
+}
+
+.my-tasks p span.trx {
+    color: indianred;
+}
+
+.my-tasks p span.active {
+    color: #429a42;
+}
+
+.my-tasks p span.stopped,
+.my-tasks p span.blocked {
+    color: indianred;
+}
+
+.my-tasks .topup-task-balance {
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.topup-task-balance input {
+    margin-right: 10px;
+}
+
+.topup-task-balance button {
+    min-width: auto;
+    margin-bottom: 5px;
+}
+
+.topup-task-balance button i {
+    margin-right: 0;
+}
+
+.my-tasks .delete-task button {
+    background-color: #2e2e2e;
+    color: indianred;
+    font-family: "Arsenal SC", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.delete-task button:active {
+    transform: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #own_tasks {
+        margin-bottom: 20px;
+    }
+
+    .my-tasks p {
+        max-width: 95%;
+    }
+
+    .my-tasks .topup-task-balance {
+        max-width: 100%;
+    }
+
+}

@@ -1,0 +1,854 @@
+/* main */
+
+#main>.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #main>.main {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+
+/* welcome section */
+
+#welcome {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#welcome .short-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.short-description h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center !important;
+}
+
+.short-description p {
+    font-size: 20px;
+    color: #bdc1c7;
+    width: 100%;
+    max-width: 300px;
+    line-height: 1.5;
+    text-align: center !important;
+    margin-bottom: 5px;
+}
+
+.short-description .tron-img {
+    animation-duration: 2s;
+}
+
+.short-description .tron-img img {
+    width: 100%;
+    max-width: 350px;
+}
+
+#welcome .login-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+}
+
+.login-form .authorization {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.authorization h5 {
+    text-align: center !important;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #2e2e2e;
+    padding: 30px 20px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.authorization input {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.authorization .cf-turnstile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    min-height: 68px;
+}
+
+.authorization button {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #welcome {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    #welcome .short-description {
+        margin-bottom: 40px;
+    }
+
+    .short-description h3 {
+        font-size: 28px;
+    }
+
+    .short-description p {
+        font-size: 18px;
+    }
+
+    .short-description .tron-img img {
+        max-width: 300px;
+    }
+
+    #welcome .login-form {
+        margin-right: 0;
+    }
+
+}
+
+/* marketing section */
+
+#marketing h3 {
+    display: none;
+}
+
+#marketing .advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px -30px 0;
+}
+
+.advantages div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+
+.advantages div img {
+    width: 100%;
+    max-width: 175px;
+    padding: 30px;
+}
+
+.advantages div h5 {
+    font-size: 22px;
+    background-color: #2e2e2e;
+    width: 100%;
+    text-align: center !important;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Arsenal SC';
+}
+
+.advantages div h5 span {
+    color: indianred;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #marketing h3 {
+        display: block;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center !important;
+        margin-top: 70px;
+        letter-spacing: 1px;
+    }
+
+    #marketing h3 i {
+        margin-right: 7px;
+        color: #f5c539;
+    }
+
+    #marketing .advantages {
+        flex-direction: column;
+        margin: 70px auto 0;
+    }
+
+    .advantages div {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* referral section */
+
+#referral {
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+}
+
+#referral .referral-percentage {
+    width: 100%;
+}
+
+.referral-percentage div:first-child {
+    margin-bottom: 20px;
+}
+
+.referral-percentage div h5 {
+    color: indianred;
+    font-size: 36px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#referral .referral-description {
+    width: 100%;
+}
+
+.referral-description h5 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.referral-description h5 i {
+    margin-right: 10px;
+    color: #f5c539;
+}
+
+.referral-description p {
+    font-size: 18px;
+    color: #bdc1c7;
+    line-height: 1.7;
+    letter-spacing: .7px;
+}
+
+.referral-description p span {
+    color: indianred;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #referral {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .referral-description h5 {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center !important;
+        margin-bottom: 55px;
+    }
+
+    .referral-description p {
+        font-size: 18px;
+        text-align: center !important;
+    }
+
+    .referral-percentage div {
+        text-align: center !important;
+    }
+
+    .referral-percentage div:first-child {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .referral-percentage div p {
+        color: #7c7c7c;
+        font-size: 18px;
+    }
+
+}
+
+/* tasks section */
+
+#tasks {
+    display: flex;
+    align-items: center;
+    border-top: 4px solid #262626;
+    margin-top: 65px;
+    padding-top: 65px;
+}
+
+#tasks .example-tasks {
+    width: 100%;
+}
+
+.example-tasks div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 85%;
+}
+
+.example-tasks div:last-child {
+    margin-bottom: 0;
+}
+
+.example-tasks div p {
+    font-size: 18px;
+    white-space: nowrap;
+    max-width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.example-tasks div p i {
+    color: indianred;
+    background-color: #2e2e2e;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 55px;
+    text-align: center !important;
+}
+
+.example-tasks div button {
+    min-width: auto;
+    padding: 15px 20px;
+}
+
+.example-tasks div button i {
+    margin-right: 0;
+}
+
+#tasks .description-tasks {
+    width: 100%;
+}
+
+.description-tasks h5 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.description-tasks h5 i {
+    margin-right: 10px;
+    color: #f5c539;
+}
+
+.description-tasks p {
+    font-size: 18px;
+    color: #bdc1c7;
+    line-height: 1.7;
+    letter-spacing: .7px;
+}
+
+.description-tasks p span {
+    color: indianred;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #tasks {
+        flex-direction: column-reverse;
+    }
+
+    #tasks .description-tasks {
+        margin-bottom: 50px;
+    }
+
+    #tasks .description-tasks h5 {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center !important;
+        margin-bottom: 50px;
+    }
+
+    #tasks .description-tasks p {
+        font-size: 18px;
+        text-align: center !important;
+    }
+
+    .example-tasks div {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+
+    .example-tasks div p {
+        font-size: 16px;
+        max-width: 75%;
+    }
+
+    .example-tasks div button {
+        font-size: 14px;
+    }
+
+}
+
+/* other section */
+
+#other {
+    display: flex;
+    align-items: center;
+    border-top: 4px solid #262626;
+    margin-top: 65px;
+    padding-top: 65px;
+    margin-bottom: 30px;
+}
+
+#other .start-earning {
+    width: 100%;
+}
+
+.start-earning p {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center !important;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.start-earning a {
+    max-width: fit-content;
+    margin: 20px auto 0;
+}
+
+#other .more-info {
+    width: 100%;
+    text-align: center !important;
+}
+
+.more-info h5 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.more-info h5 i {
+    margin-right: 10px;
+    color: #f5c539;
+}
+
+.more-info ul li {
+    margin-bottom: 10px;
+}
+
+.more-info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.more-info ul li a {
+    font-size: 20px;
+    color: #bdc1c7;
+    line-height: 1.7;
+    letter-spacing: .7px;
+    border-bottom: 2px dashed #bdc1c7;
+    padding-bottom: 5px;
+}
+
+.more-info ul li a:hover {
+    color: indianred;
+}
+
+.more-info ul li a:active {
+    color: #bdc1c7;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #other {
+        flex-direction: column-reverse;
+    }
+
+    #other .more-info {
+        margin-bottom: 50px;
+    }
+
+    .more-info h5 {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center !important;
+        margin-bottom: 50px;
+    }
+
+    .start-earning p {
+        font-size: 20px;
+    }
+
+    .start-earning a {
+        margin-top: 30px;
+    }
+
+}
+
+/* statistics section */
+
+#statistics {
+    margin-top: 65px;
+}
+
+#statistics .card-statistics {
+    display: flex;
+    align-items: stretch;
+}
+
+.card-statistics div {
+    background-color: #262626;
+    text-align: center !important;
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.card-statistics div:last-child {
+    margin-right: 0;
+}
+
+.card-statistics div h5 {
+    font-size: 20px;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.card-statistics div h5 span {
+    color: indianred;
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.card-statistics div p {
+    font-size: 18px;
+    color: #bdc1c7;
+    letter-spacing: .7px;
+    background-color: #2e2e2e;
+    padding: 20px 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+#statistics .recent-transactions {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.recent-transactions .deposits {
+    margin-right: 30px;
+}
+
+.recent-transactions .deposits,
+.recent-transactions .payments {
+    width: 100%;
+}
+
+.recent-transactions .deposits h5,
+.recent-transactions .payments h5 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #bdc1c7;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #statistics {
+        margin-top: 25px;
+    }
+
+    #statistics .card-statistics {
+        flex-direction: column;
+    }
+
+    .card-statistics div {
+        margin: 0 auto 30px;
+    }
+
+    .card-statistics div:last-child {
+        margin-bottom: 0;
+        margin-right: auto;
+    }
+
+    #statistics .recent-transactions {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .recent-transactions .deposits {
+        margin: 0 auto 60px;
+    }
+
+    .recent-transactions .payments {
+        margin: 0 auto 25px;
+    }
+
+}
+
+/* faq section */
+
+#faq {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+#faq .faq-block {
+    margin-bottom: 30px;
+}
+
+.faq-block .question {
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.question h5 {
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.question i {
+    cursor: pointer;
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.question i:hover {
+    filter: brightness(107%);
+}
+
+.question i:active {
+    filter: brightness(100%);
+}
+
+.faq-block .answer {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none;
+}
+
+.answer p {
+    font-size: 18px;
+    color: #bdc1c7;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Arsenal SC';
+}
+
+.answer p span, .answer p a {
+    color: indianred;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #faq {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #faq .faq-block {
+        margin: 0 auto 30px;
+    }
+
+    .faq-block .question {
+        font-size: 16px;
+    }
+
+    .question i {
+        margin-left: 10px;
+    }
+
+}
+
+/* bounty section */
+
+#bounty {
+    margin-top: 55px;
+}
+
+#bounty .bounty {
+    text-align: center !important;
+}
+
+.bounty .description {
+    max-width: 1070px;
+    margin: 0 auto 50px;
+}
+
+.bounty .description p {
+    font-size: 22px;
+    letter-spacing: .7px;
+    line-height: 1.7;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.bounty .description p span,
+.bounty .description p a {
+    color: indianred;
+    font-weight: 600;
+}
+
+.bounty .social-media-pictures img {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px;
+    opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #bounty {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .bounty .description p {
+        font-size: 20px;
+    }
+
+    .bounty .social-media-pictures {
+        margin: 0 auto;
+    }
+
+    .bounty .social-media-pictures img {
+        max-width: 100px;
+    }
+
+}
+
+/* contacts section */
+
+#contacts {
+    margin-top: 60px;
+}
+
+#contacts .contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contacts .contact:last-child {
+    margin-bottom: 0;
+}
+
+.contact img {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 15px;
+}
+
+.contact a {
+    color: #bdc1c7;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.contact a:hover {
+    color: indianred;
+}
+
+.contact a:active {
+    color: #bdc1c7;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #contacts {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #contacts .contact {
+        margin: 0 auto 20px;
+    }
+
+    .contact img {
+        max-width: 30px;
+    }
+
+    .contact a {
+        font-size: 20px;
+    }
+
+}
+
+/* rules section */
+
+#rules {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#rules h5 {
+    color: indianred;
+    font-size: 20px;
+    letter-spacing: .7px;
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#rules p {
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.7;
+    color: #bdc1c7;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #rules {
+        margin: 20px auto;
+    }
+
+    #rules h5 {
+        font-size: 18px;
+    }
+
+    #rules p {
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,176 @@
+/* zeroing */
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* remove unnecessary styles */
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/* remove margin, padding from bootstrap */
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* remove strokes from bootstrap inputs */
+
+input:focus, select:focus {
+    box-shadow: none !important;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+/* remove the outline and focus border from the buttons */
+
+button, button:active, button:focus, button:focus-visible {
+    outline: none !important;
+}
+
+button::-moz-focus-inner {
+    border: 0 !important;
+}
+
+/* remove stroke in modal from bootstrap */
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+/* vertical scroll bar on the page */
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: none;
+    padding: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 10px;
+}
+
+/* horizontal scroll bar in block */
+
+body div::-webkit-scrollbar {
+    height: 4px;
+}
+
+body div::-webkit-scrollbar-track {
+    background-color: none;
+    padding: 5px;
+}
+
+body div::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 10px;
+}
+
+/* custom styles for sweetalert */
+
+.swal2-popup.swal2-toast .swal2-title {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 11px !important;
+}
+
+.swal2-popup.swal2-toast .swal2-title>img {
+    margin: 1px 1px 0 3px;
+}
+
+div:where(.swal2-icon).swal2-warning {
+    border-color: indianred !important;
+    color: indianred !important;
+}
+
+.swal2-popup.swal2-toast .swal2-success {
+    border-color: transparent !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-close):focus {
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 576px) {
+
+    body.swal2-toast-shown .swal2-container {
+        width: -webkit-fill-available !important;
+    }
+
+}
+
+/* tooltip */
+
+.tooltip {
+    letter-spacing: .3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* gtranslate widget */
+
+#gt_float_wrapper {
+    bottom: 10px !important;
+    left: 10px !important;
+}
+
+.gt_float_switcher {
+    background: #2e2e2e !important;
+}
+
+.gt_float_switcher .gt_options a {
+    padding: 15px !important;
+    color: #e6e6e6 !important;
+    font-size: 16px !important;
+}
+
+.gt_float_switcher .gt_options a:hover {
+    background: #262626 !important;
+}
+
+.gt_float_switcher img {
+    width: 24px !important;
+}
+
+.gt_float_switcher .gt-selected {
+    background-color: #262626 !important;
+    min-width: 125px;
+}
+
+.gt_float_switcher .gt-selected .gt-current-lang {
+    padding: 10px !important;
+    color: #e6e6e6 !important;
+    text-align: center !important;
+}
+
+.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code {
+    font-size: 16px !important;
+}

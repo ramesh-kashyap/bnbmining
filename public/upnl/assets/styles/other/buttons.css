@@ -1,0 +1,48 @@
+/* default button */
+
+.def-btn {
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    line-height: normal;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-weight: 600;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.def-btn:disabled {
+    background-color: #7c7c7c;
+    color: #2e2e2e;
+}
+
+.def-btn:not([disabled]):hover {
+    filter: brightness(107%);
+}
+
+.def-btn:not([disabled]):active {
+    box-shadow: none;
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+    transform: translateY(4px);
+    filter: brightness(100%);
+}
+
+.def-btn i {
+    margin-right: 10px;
+}
+
+/* default button - yellow */
+
+.def-btn.yellow-btn {
+    background-color: #f5c539;
+    box-shadow: rgb(153 121 27) 0px 4px 0px 0px;
+    color: #262626;
+}

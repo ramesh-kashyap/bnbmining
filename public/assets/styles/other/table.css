@@ -1,0 +1,59 @@
+/* style for table */
+
+.recent-transactions .table-responsive .table {
+    margin-bottom: 0;
+}
+
+.recent-transactions th {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.recent-transactions th,
+.recent-transactions td {
+    background-color: #2e2e2e;
+    color: #d0d0d0;
+    border: 5px solid #181818;
+    text-align: center !important;
+    padding: 25px;
+    white-space: nowrap;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.recent-transactions th:first-child,
+.recent-transactions td:first-child {
+    border-left: 0;
+}
+
+.recent-transactions th:last-child,
+.recent-transactions td:last-child {
+    border-right: 0;
+}
+
+.recent-transactions td {
+    font-family: "Arsenal SC", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+.recent-transactions td.empty {
+    font-size: 20px;
+    color: #f5c539;
+    letter-spacing: 1.5px;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.recent-transactions td span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.recent-transactions td a {
+    color: #bdc1c7;
+}
+
+.recent-transactions td i {
+    margin-right: 7px;
+    color: #f5c539;
+}

@@ -1,0 +1,18 @@
+/* default (uiverse) input with yellow border-color */
+
+.def-input {
+    background-color: #292929;
+    border: 1px solid #3e3e3e;
+    border-radius: 8px;
+    color: #bdc1c7;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.def-input:hover, .def-input:focus {
+    border-color: indianred;
+}

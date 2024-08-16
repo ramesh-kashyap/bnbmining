@@ -1,0 +1,208 @@
+/* preloader */
+@import url('other/preloader.css');
+/* additions to bootstrap styles and auxiliary styles */
+@import url('other/additions.css');
+/* buttons */
+@import url('other/buttons.css');
+/* inputs */
+@import url('other/inputs.css');
+/* table */
+@import url('other/table.css');
+/* select */
+@import url('other/select.css');
+/* loading */
+@import url('other/loading.css');
+
+/* font-family: "Lilita One", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Teko:wght@300..700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* font-family: "Arsenal SC", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* html, body */
+
+html ::selection {
+    color: #fff;
+    background: #144571;
+}
+
+html, body {
+    line-height: 1;
+    font-size: 16px;
+    letter-spacing: .5px;
+    background-color: #181818;
+    color: #e6e6e6;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .wrapper */
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* padding for header and footer */
+
+header, footer {
+    padding: 20px;
+}
+
+/* removing padding in the container (mobile) */
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        padding: 0;
+    }
+
+}
+
+/* header */
+
+header {
+    border-bottom: 2px solid #262626;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .name a {
+    font-size: 35px;
+    font-family: "Lilita One", sans-serif;
+    color: #bdc1c7;
+    letter-spacing: 2px;
+}
+
+.header .name a span {
+    color: indianred;
+}
+
+.header .name i {
+    display: none;
+}
+
+.header .header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu ul li {
+    margin-right: 20px;
+}
+
+.header-menu ul li a {
+    color: #bdc1c7;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.header-menu ul li a:hover {
+    color: indianred;
+}
+
+.header-menu ul li a::after {
+    color: #bdc1c7;
+}
+
+.header-menu a.telegram img {
+    width: 100%;
+    max-width: 36px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    header .header {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .header .name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header .name a {
+        line-height: 0;
+        font-size: 32px;
+    }
+
+    .header .name i {
+        display: block;
+        font-size: 32px;
+        color: #bdc1c7;
+    }
+
+    .header .header-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .header-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 15px 0 0;
+    }
+
+    .header-menu ul li {
+        margin-right: 0;
+        background-color: #262626;
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: -2px 0px 0px #2e2e2e;
+        line-height: normal;
+    }
+
+    .header-menu ul li a {
+        font-size: 16px;
+    }
+
+    .header-menu a.telegram {
+        display: none;
+    }
+
+}
+
+/* main */
+
+main {
+    flex: 1 1 auto;
+    padding: 40px 20px;
+}
+
+/* footer */
+
+footer {
+    color: #7c7c7c;
+    border-top: 2px solid #262626;
+}
+
+footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.5;
+}

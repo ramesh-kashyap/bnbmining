@@ -1,0 +1,808 @@
+/* account */
+
+#account>.account {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #account>.account {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
+
+/* dashboard section */
+
+#dashboard {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+#dashboard .left-side {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.left-side .title,
+.right-side .title {
+    margin-bottom: 30px;
+}
+
+.left-side .title p,
+.right-side .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.left-side .title p span,
+.right-side .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.left-side .main-balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-balance div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.main-balance div img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.main-balance div p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    line-height: 0;
+}
+
+.main-balance div p span {
+    color: indianred;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.main-balance div a {
+    min-width: auto;
+    padding: 10px 15px;
+}
+
+.main-balance div a i {
+    margin-right: 0;
+}
+
+.left-side .accumulated-income {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.left-side .accumulated-income img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.left-side .accumulated-income span {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.left-side .collect-or-increase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.collect-or-increase .income-collection {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.collect-or-increase .income-collection button {
+    width: 100%;
+}
+
+.collect-or-increase .increase-speed {
+    width: 100%;
+}
+
+#dashboard .right-side {
+    width: 100%;
+}
+
+.right-side .statistics {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.statistics p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.statistics p>span {
+    letter-spacing: 1.5px;
+}
+
+.statistics p>span span {
+    color: indianred;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #dashboard {
+        margin: 25px auto 5px;
+        flex-direction: column;
+    }
+
+    .left-side .collect-or-increase {
+        flex-direction: column;
+    }
+
+    .collect-or-increase .income-collection {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .collect-or-increase .increase-speed {
+        margin-bottom: 70px;
+    }
+
+    .statistics p {
+        padding: 20px 10px;
+    }
+
+}
+
+/* deposit section */
+
+#deposit {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+#deposit .deposit-form {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.deposit-form .title {
+    margin-bottom: 30px;
+}
+
+.deposit-form .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.deposit-form .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.deposit-form .address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* style for the copied address for deposit and ad. balance */
+
+.address input {
+    font-size: 17px;
+}
+
+.address i {
+    background-color: #2e2e2e;
+    padding: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #bac0c4;
+    border: 1px solid #3e3e3e;
+}
+
+.address i:hover {
+    filter: brightness(107%);
+}
+
+.address i:active {
+    filter: brightness(100%);
+}
+
+/* --------------------------- */
+
+.deposit-form .description {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.deposit-form .description p {
+    line-height: 1.7;
+    letter-spacing: .7px;
+    font-size: 18px;
+}
+
+.deposit-form .description p span {
+    color: indianred;
+    font-weight: 500;
+}
+
+.deposit-form .qr-code {
+    background-color: #262626;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* QR code style for deposit and ad. balance */
+
+.qr-code img {
+    width: 100%;
+    max-width: 250px;
+}
+
+/* -------------------------- */
+
+.recent-transactions {
+    width: 100%;
+}
+
+.recent-transactions .title {
+    margin-bottom: 25px;
+}
+
+.recent-transactions .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.recent-transactions .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #deposit {
+        margin: 25px auto;
+        flex-direction: column;
+    }
+
+    #deposit .deposit-form {
+        margin-right: 0;
+        margin-bottom: 65px;
+    }
+
+}
+
+/* withdraw section */
+
+#withdraw {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+#withdraw .withdraw-or-reinvest {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.withdraw-or-reinvest div.withdraw {
+    margin-bottom: 65px;
+}
+
+.withdraw-or-reinvest div .title {
+    margin-bottom: 30px;
+}
+
+.withdraw-or-reinvest div .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.withdraw-or-reinvest div .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.withdraw-or-reinvest div form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.withdraw-or-reinvest div form input {
+    text-align: center !important;
+}
+
+.withdraw-or-reinvest div form button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #withdraw {
+        margin: 25px auto 25px;
+        flex-direction: column;
+    }
+
+    #withdraw .withdraw-or-reinvest {
+        margin-right: 0;
+        margin-bottom: 70px;
+    }
+
+}
+
+/* bonus section */
+
+#bonus {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+#bonus .bonus-collection-form {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.bonus-collection-form .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.bonus-collection-form .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.bonus-collection-form .progressive-bonus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.progressive-bonus div {
+    background-color: #262626;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    min-width: 87px;
+    text-align: center !important;
+}
+
+.progressive-bonus div.not-available {
+    opacity: 0.6;
+}
+
+.progressive-bonus div p {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.progressive-bonus div.not-available p {
+    filter: blur(.3px);
+}
+
+.bonus-collection-form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus-collection-form form .cf-turnstile {
+    min-height: 70px;
+}
+
+.bonus-collection-form form button {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.bonus-collection-form .loading-wave {
+    min-height: 65px;
+}
+
+.bonus-collection-form .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #262626;
+    min-height: 65px;
+}
+
+.bonus-collection-form .timer i {
+    margin-right: 10px;
+    color: #f5c539;
+}
+
+.bonus-collection-form .timer p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #c3bdc8;
+    font-weight: 500;
+}
+
+.bonus-collection-form .about-bonus {
+    background-color: #262626;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 0;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-bonus i {
+    color: indianred;
+    margin-right: 10px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+}
+
+.about-bonus p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #bonus {
+        margin: 25px auto 25px;
+        flex-direction: column;
+    }
+
+    #bonus .bonus-collection-form {
+        margin-right: 0;
+        margin-bottom: 65px;
+    }
+
+}
+
+/* achievements section */
+
+#achievements {
+    display: flex;
+    margin: 65px 0;
+    flex-direction: column;
+}
+
+#achievements .achievements-header {
+    display: flex;
+    width: 100%;
+}
+
+.achievements-header .main-balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.achievements-header .achievement-statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.achievement-statistics div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.achievement-statistics div img {
+    width: 100%;
+    max-width: 30px;
+    margin-right: 15px;
+}
+
+.achievement-statistics div p {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 0;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.achievement-statistics div p span {
+    font-weight: 600;
+    color: indianred;
+}
+
+.two-achievements-in-line .achievements-block {
+    width: 100%;
+}
+
+.two-achievements-in-line .achievements-block:first-child {
+    margin-right: 20px;
+}
+
+.achievements-block .title {
+    margin: 60px 0 30px;
+}
+
+.achievements-block .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.achievements-block .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.list-achievements .achievement-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.list-achievements .achievement-form:last-child {
+    margin-bottom: 0;
+}
+
+.achievement-form p {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.achievement-form p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.achievement-form img {
+    width: 100%;
+    max-width: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #achievements {
+        margin: 25px 0;
+    }
+
+    #achievements .achievements-header {
+        flex-direction: column;
+    }
+
+    .achievements-header .main-balance {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .achievements-header .achievement-statistics {
+        justify-content: normal;
+        min-height: 75px;
+    }
+
+    .achievement-statistics div p.completed {
+        display: none;
+    }
+
+    .achievements-block .title {
+        margin: 55px 0 30px;
+    }
+
+    .list-achievements .achievement-form {
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .achievement-form p {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* referrals */
+
+#referrals {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+#referrals .referrals {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.referrals .title {
+    margin-bottom: 30px;
+}
+
+.referrals .title p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.referrals .title p span {
+    color: indianred;
+    font-weight: 600;
+}
+
+.referrals .referral-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.referral-link input {
+    font-size: 17px;
+}
+
+.referral-link i {
+    background-color: #2e2e2e;
+    padding: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #bac0c4;
+    border: 1px solid #3e3e3e;
+}
+
+.referrals .description {
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.referrals .description i {
+    color: indianred;
+    margin-right: 10px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    padding: 3px 10px 5px;
+    border-radius: 5px;
+}
+
+.referrals .description p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.referrals .description p span {
+    color: indianred;
+    font-weight: 700;
+}
+
+.referrals .statistics {
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.referrals .statistics p {
+    font-size: 20px;
+}
+
+.referrals .statistics p:first-child {
+    border-bottom: 2px solid #2e2e2e;
+}
+
+#referrals .referral-table .pagination {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    max-width: 500px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.referral-table .pagination p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    min-width: 40px;
+    text-align: center !important;
+    border-radius: 5px;
+    background-color: #262626;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.referral-table .pagination p:first-child {
+    border: 1px solid indianred;
+}
+
+.referral-table .pagination p.active {
+    border: 1px solid indianred !important;
+}
+
+.referral-table .pagination p:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #referrals {
+        margin: 25px auto 25px;
+        flex-direction: column;
+    }
+
+    #referrals .referrals {
+        margin-right: 0;
+        margin-bottom: 65px;
+    }
+
+    .referral-link input {
+        font-size: 16px;
+    }
+}

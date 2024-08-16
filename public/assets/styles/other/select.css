@@ -1,0 +1,49 @@
+.select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.select:after {
+    content: "▼";
+    padding: 0;
+    font-size: 16px;
+    position: absolute;
+    right: -20px;
+    top: 22px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+select {
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 20px;
+    background-color: #292929;
+    color: #e6e6e6;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: 1px solid #3e3e3e;
+    cursor: pointer;
+}
+
+select:hover, select:focus, select:focus-visible {
+    border-color: indianred;
+    outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .select:after {
+        right: 0;
+    }
+
+}

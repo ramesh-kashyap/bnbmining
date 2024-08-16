@@ -1,0 +1,255 @@
+.page-wrap_news .main-text p span {
+    color: #008080;
+}
+.main-btn_green{
+    color: #ffffff;   
+}
+.about-video a p {
+    color: #F67942;
+}
+.project .main-title__text {
+    color: #594B3E;
+}
+.project .main-title__text{
+    text-shadow: 0 0 5px #0000001f;
+}
+.project .main-title__text p {
+    color: #d3ffe0;
+}
+.footer-bg .footer-text p {
+    color: #ffffff;
+}
+.footer-copy {
+    color: #FFFFFF;
+}
+.header_page .header-lang__text,.cab .header-lang__text{
+    color: #ffffff;
+}
+.cert-title{
+    text-shadow: 0 0 5px #0000001f;
+}
+@media screen and (min-width: 992px) {
+    .office-img-1{
+        margin-top: -190px;
+    }
+    .promo-custom .promo-form{
+        top:auto;
+    }
+}
+
+.header-title{
+    text-shadow: 3px 3px 15px #f0f0f0;
+}
+.header-text p {
+    color: #000000;
+}
+.header-lang__arrow{
+    background-color: rgb(109 171 129);
+}
+
+.cab-head-btns__lounchpad .main-btn b{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Estricta", sans-serif;
+    position: absolute;
+    right: 100px;
+}
+@media screen and (max-width: 1199px) {
+    .cab-head-btns__lounchpad .main-btn b{
+        right: 65px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cab-head-btns__lounchpad .main-btn b{
+        right: auto;
+        position: relative;
+        font-size: 14px;
+        width: 100%;
+    }
+    .cab-head-btns__lounchpad .main-btn {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+}
+
+.stat-list__item span {
+    font-size: 27px;
+}
+.cab-bal__head span,.cab-wallets label p span{
+    white-space: nowrap;
+}
+.header-lang__icon{
+    position: relative;
+}
+.header-lang__icon span{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #00000057;
+    padding: 0 3px;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.alert{
+    width: 100%;
+}
+.main-text img{
+    max-width: 100%;
+}
+.page-wrap_news .main-title_page .main-title__text p.single-title{
+    font-size: 15px;
+}
+.cab-plans__arrow{
+    min-width: 30px;
+}
+.cab-title{
+    font-size: 11px;
+}
+.project-item_5 {
+     background-image: url(../img/project-item-bg-5c619.png?v=1.0);
+}
+.project-item_6 {
+    background-image: url(../img/project-item-bg-6c619.png?v=1.0);
+}
+.form-btns button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cab-head-btns .main-btn.active{
+    box-shadow: 1px 1px 10px rgb(255 255 255 / 34%);
+}
+.cab-head-title h3{
+    font-size: 21px;
+}
+.header-lang__icon{
+    height: 22px;
+}
+.lang-ru .cab-head-info h3{
+    font-size: 20px;
+}
+.lang-ru .main-title__text p {
+    font-size: 30px;
+}
+.lang-ru .about-text .main-btn.main-btn_gray{
+    font-size: 8px;
+}
+.lang-ru .cert-img {
+    right: -265px;
+    top: -162px;
+}
+.lang-ru .stat .main-title__text p.stat-text{
+    font-size: 40px;
+}
+.lang-ru .sign-title{
+    font-size: 17px;
+}
+.lang-ru .header-menu__item span{
+    font-size: 18px;
+    font-family: "Estricta", sans-serif;
+}
+.lang-ru .main-btn{
+    letter-spacing: 0.5px;
+}
+.lang-ru .cab-dep__list .main-btn{
+    font-size: 8px;
+}
+.lang-ir .header-stat__item,.lang-ir .main-title__text,.lang-ir .invest-text,.lang-ir .about-note,.lang-ir .about-text p,.lang-ir .main-text,.lang-ir .why-text h3,.lang-ir .why-text p,.lang-ir .why-list__item,.lang-ir .why-title,.lang-ir .why-text-2,.lang-ir .why-text-3,.lang-ir .why-text,.lang-ir .why-rate,.lang-ir .team-text p,.lang-ir .stat-list__item,.lang-ir .footer-bg,.lang-ir .footer-text p,.lang-ir .footer-soc-title,.lang-ir .about-page-info p,.lang-ir .about-page-title,.lang-ir .about-page-num p,.lang-ir .office-img-text,.lang-ir .office-about p,.lang-ir .office-text-arrow p,.lang-ir .office-info__item > p,.lang-ir .team-item{
+    direction: rtl;
+}
+.lang-ir .main-title__text.about-page{
+    direction: ltr;
+}
+.lang-ir .cert-wrap .main-text{
+    margin-bottom: 80px;
+}
+.cab-dep__item.inactive {
+    pointer-events: none;
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+.fbtc-title:before {
+    left: auto;
+    right: 0;
+}
+.fbtc-title p{
+    width: 100%;
+    text-align: center;
+}
+.lang-kr .wallets {
+    margin-top: -65px;}
+@media screen and (min-width: 1200px) {
+    .page-wrap_fbtc .main-text{
+        padding-left: 15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .header-side{
+        min-height: 810px;
+    }
+    .stat-list__item {
+        max-width: 215px;
+    }
+    .cab-bounty__tg-info{
+        margin-bottom: -70px;
+    }
+    .page-wrap_guide .footer {
+        margin-top: 250px;
+    }
+    .header-stat{
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .fbtc-lvls-text-2{
+        position: relative;
+        top: -40px;
+    }
+    .cab-menu{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 481px) {
+    .cab-plans__text h3{
+        font-size: 11px;
+    }
+}
+@media (max-width: 1199px){
+    .lang-ir .cert-wrap .main-text{
+        margin-bottom: 130px;
+    }
+}
+@media (max-width: 767px){
+    .lang-ru .main-title__text p {
+        font-size: 25px;
+    }
+    .lang-ru .cert-title{
+        font-size: 17px;
+    }
+    .lang-ru .stat .main-title__text p.stat-text{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 575px){
+    .cab-head-title h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    .lang-ru .main-title__text p {
+        font-size: 17px;
+    }
+    .lang-ru .stat .main-title__text p.stat-text{
+        font-size: 17px;
+    }
+    .lang-ru .cert-title{
+        font-size: 11px;
+    }
+    .lang-ru .sign-title {
+        font-size: 15px;
+    }
+}
