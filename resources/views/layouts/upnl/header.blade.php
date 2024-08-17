@@ -144,7 +144,7 @@
                         <li><a href="{{route('user.invest')}}">Deposit</a></li>
                         <li><a href="{{route('user.withdraw')}}">Withdraw</a></li>
                         <li><a href="{{route('user.direct-income')}}">Bonus</a></li>
-                        <li><a href="{{route('user.referral-team')}}">Referral</a></li>                  
+                        <li><a href="{{route('user.level-team')}}">Referral</a></li>                  
                         <li>
     <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
         Logout

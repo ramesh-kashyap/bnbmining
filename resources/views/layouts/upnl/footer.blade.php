@@ -1,7 +1,7 @@
 <footer>
 
 <div class="footer container text-center">
-    <p>minetronx.net © 2024 all rights reserved</p>
+    <p>{{sitename()}}</p>
 </div>
 
 </footer>

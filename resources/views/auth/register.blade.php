@@ -112,7 +112,6 @@
         }
     </script>
 
-@include('partials.notify')
     <!-- External JS libraries -->
     <script src="{{ asset('') }}logincss/jquery-3.6.0.min.js"></script>
 
@@ -162,5 +161,6 @@
         });
 
     </script>
+@include('partials.notify')
 
 @include('layouts.mainsite.footer')

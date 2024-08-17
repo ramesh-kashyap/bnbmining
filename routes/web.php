@@ -106,6 +106,8 @@ Route::get('/level-team', [App\Http\Controllers\UserPanel\Team::class, 'LevelTea
 //end team
 
 //bonus
+Route::get('/seaching', [App\Http\Controllers\UserPanel\Bonus::class, 'direct_income'])->name('user.seaching');
+
 Route::get('/level-income', [App\Http\Controllers\UserPanel\Bonus::class, 'index'])->name('user.level-income');
 Route::get('/global-boots', [App\Http\Controllers\UserPanel\Bonus::class, 'globalBoots'])->name('user.global-boots');
 Route::get('/direct-income', [App\Http\Controllers\UserPanel\Bonus::class, 'direct_income'])->name('user.direct-income');

@@ -38,7 +38,7 @@
                 <div class="recent-transactions referral-table">
 
                     <div class="title text-center">
-                        <p>Referral <span>list</span></p>
+                        <p>My Level <span>Team</span></p>
                     </div>
 
                     <div class="table-responsive">
@@ -66,12 +66,12 @@
 
                                     <td class="empty">{{ $value->username }}</td>
 
-                                    {{-- <td>{{ $value->phone }}</td> --}}
+                                    {{-- <td class="empty">{{ $value->phone }}</td> --}}
 
-                                    <td>{{ $value->level - Auth::user()->level }}</td>
-                                    <td>{{ date('D, d M Y', strtotime($value->created_at)) }} </td>
-                                    <td>{{ $value->sponsor_detail->username }}</td>
-                                    <td> <span
+                                    <td class="empty">{{ $value->level - Auth::user()->level }}</td>
+                                    <td class="empty">{{ date('D, d M Y', strtotime($value->created_at)) }} </td>
+                                    <td class="empty">{{ $value->sponsor_detail->username }}</td>
+                                    <td class="empty"> <span
                                             class="{{ $value->active_status == 'Active' ? 'green' : 'red' }}-tag">{{ $value->active_status }}</span>
                                     </td>
 
