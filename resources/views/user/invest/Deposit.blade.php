@@ -266,7 +266,7 @@
                                                 <div class="card-box tilebox-one"
                                                     style="border-bottom: 4px solid #ffc107;">
                                                     @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div  class="avatar-lg rounded-circle btn-gray-gradient float-right">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
                                     <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>

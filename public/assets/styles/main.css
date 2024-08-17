@@ -68,16 +68,18 @@
     flex-direction: column;
     background-color: #262626;
     width: 100%;
-    max-width: 400px;
+    max-width: 550px;
     border-radius: 10px;
     align-items: center;
+    height: 370px;
+    padding-top: 55px;
 }
 
 .authorization h5 {
     text-align: center !important;
     font-size: 20px;
     font-weight: 500;
-    background-color: #2e2e2e;
+    background-color: #262626;
     padding: 30px 20px;
     letter-spacing: 1px;
     width: 100%;
@@ -86,7 +88,7 @@
 }
 
 .authorization input {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 100%;
     max-width: 300px;
 }

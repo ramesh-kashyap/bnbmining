@@ -75,7 +75,7 @@
 
 
                         <li><a href="{{route('contact')}}">Contacts</a></li>
-                        <li><a href="{{route('register')}}" class="register-link" style="color:black;">Register</a></li>
+                        <li><a href="{{route('register')}}" class="register-link" style="color:black;border-radius:5px;">Register</a></li>
 
 
                     </ul>

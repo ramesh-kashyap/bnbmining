@@ -17,7 +17,7 @@
                 <div class="login-form">
  
 
-                    <div  class="authorization">
+                    <div  style="padding-top:20px;" class="authorization">
                         <h5> Register</h5>
 
                         @php
@@ -31,9 +31,9 @@
 
                   
                         <div
-                            style="display: flex; justify-content: space-between; margin-top: 15px; margin-bottom: 15px;">
+                            style="display: flex; justify-content: space-between;  margin-bottom: 15px;">
                         
-                            <a href="{{ route('Index') }}" style="color: white; margin-left: 40px;">Sign In</a>
+                            <p>Already a member? <a href="{{ route('Index') }}" style="color:#f5c539;">Login here</a></p>
                         </div>
 </div>
 

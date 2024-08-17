@@ -28,7 +28,7 @@
 
                         <h3>Login to your personal account</h3>
                         <p>The Crowdfunding platform to access all the function of your personal account use auto login</p>
-                        <input type="submit" name="btnsubmit" onclick="web3Login();" value=" Authorization Login" id="btnsubmit" class="def-input" style="background-color:#f5c539;color:#262626;">
+                        <input type="submit" name="btnsubmit" onclick="web3Login();" value=" Authorization Login" id="btnsubmit" class="def-input" style="width:100%;max-width:300px;margin-bottom:30px;border:none;padding:16px 32px;text-decoration:none;font-size:16px;transition-duration:0.3s;line-height:normal;white-space:nowrap;border-radius:10px;font-weight:600;min-width:200px;display:flex;align-items:center;justify-content:center;background-color:#f5c539;color:#262626;box-shadow:rgb(153 132 27) 0px 4px 0px 0px;outline: none !important;cursor: pointer;">
                         <input type="hidden" name="dashboard-url" id="dashboard-url" value="{{route('user.dashboard')}}">
 
                 
@@ -37,7 +37,7 @@
                             style="display: flex; justify-content: space-between; margin-top: 15px; margin-bottom: 15px;">
                           
                             <a href="{{ route('register') }}"
-                                style="color: white; margin-left: 40px;">Register Here</a>
+                                style="color:#f5c539 ; margin-left: 40px;">Register Here</a>
                         </div>
 
 </div>
