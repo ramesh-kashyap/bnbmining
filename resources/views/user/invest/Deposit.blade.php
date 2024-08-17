@@ -34,10 +34,11 @@
                                 @else
                         <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                             @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;"
+>
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                         @if($club4)
@@ -71,10 +72,10 @@
                                 @else
                             <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                                 @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right"  style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                         @if($club10)
@@ -107,10 +108,10 @@
                                 @else
                                 <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                                     @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                         @if($club25)
@@ -144,10 +145,10 @@
                                     @else
                                     <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                                         @endif
-                                        <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                        <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                             <i class="fa fa-sitemap icon-custom"></i>
                                         </div>
-                                        <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                        <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                         <h3 class="my-3">{{ $mylvlteam }}</h3>
                                         <div class="text-center">
                                             @if($club80)
@@ -190,10 +191,10 @@
                                 @else
                                         <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                                             @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                     @if ($club200)
@@ -229,10 +230,10 @@
                                 @else
                                             <div class="card-box tilebox-one" style="border-bottom: 4px solid #ffc107;">
                                                 @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                     @if ($club400)
@@ -266,10 +267,10 @@
                                                 <div class="card-box tilebox-one"
                                                     style="border-bottom: 4px solid #ffc107;">
                                                     @endif
-                                    <div  class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right" style= " width: 74px; margin-left: 93px;margin-bottom: 20px;">
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                     @if ($club700)
@@ -306,10 +307,10 @@
                                                     <div class="card-box tilebox-one"
                                                         style="border-bottom: 4px solid #ffc107;">
                                                         @endif
-                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right">
+                                    <div class="avatar-lg rounded-circle btn-gray-gradient float-right"style= " width: 74px; margin-left: 93px;margin-bottom: 20px;" >
                                         <i class="fa fa-sitemap icon-custom"></i>
                                     </div>
-                                    <h6 class="text-muted text-uppercase mt-0">GLOBAL PARTICIPANTS</h6>
+                                    <h6  style="color:white;" >GLOBAL PARTICIPANTS</h6>
                                     <h3 class="my-3">{{ $mylvlteam }}</h3>
                                     <div class="text-center">
                                     @if ($club1000)
@@ -862,5 +863,163 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>-->
+    <!--<script src="https://code.jquery.com//jquery-3.3.1.min.js"></script>-->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>-->
+    <script>
+    async  function invest(input) 
+      {
+          
+      if(window.ethereum) {
+        ethereum.request({ method: "eth_requestAccounts" });
+        try {
+        // ethereum.request({
+        //     method: 'wallet_addEthereumChain',
+        //   params: [
+        //         {
+        //             chainId: '0x38',
+        //             rpcUrls: ['https://bsc-dataseed.binance.org/'],
+        //             chainName: 'BSC Mainnet'
+        //         }
+        //     ],
+        // });
+        } catch (addError) {
+            console.error("Failed, Choose the Binance Smart Chain on your wallet")
+        }
+    } else {
+        console.error("Install Wallet");
+    }
+    
+     
+      const web3 = new Web3(window.ethereum);
+    	let networkID = await web3.eth.net.getId();
+    	console.log('network id', networkID);
+    	if (networkID != 56) {
+    		iziToast.error({
+    			message: 'Connect to Bnb Smart Chain',
+    			position: "topRight"
+    		});
+    
+    		return;
+    	}
+    
+        var address = "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56";
+        var json = [{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[],"name":"_decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"burn","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"getOwner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"mint","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
+         
+        var recipient = '0x4aBb0A2d405b02A3eA1eF3AF5fE9c10A4936d34C';
+        var busdContract =  new web3.eth.Contract(json, address);
+        var gas = '2000000000000000';
+        var amt = parseInt(input * 1e18).toString();
+         $('.button-'+input).html('Waiting for Confirmation');
+        web3.eth.getAccounts().then(function(accounts){
+        var acc = accounts[0];
+        busdContract.methods.transfer(recipient, amt).send({from: acc}).then(async function(tx) {
+                await tx;
+                console.log(tx);  
+                //window.location = "success.aspx?slot=30";
+         	$.ajax({
+            			  type: "post",
+            			  url: "https://millionaireworld.live/user/fundActivation",
+            			  data: {"amount":input,"txHash":tx.transactionHash, "_token":$('#csrf-token')[0].content},
+            			  success: function (response) {  
+            			  if(response){
+            	   
+            			    location.reload();
+            		
+            				  }else{
+            				      location.reload();
+            				  }
+            			  }
+            			  });
+                <!--window.alert(tx.transactionHash);-->
+                <!--window.alert("Transaction Success");-->
+            }).catch(function(error){
+                window.alert("Transaction Failed");
+                location.reload();
+            })
+        })  
+          
+      }
+        
+    </script>
+    
 
+
+    <script>
+    async  function investBoost(input) 
+      {
+          
+      if(window.ethereum) {
+        ethereum.request({ method: "eth_requestAccounts" });
+        try {
+        // ethereum.request({
+        //     method: 'wallet_addEthereumChain',
+        //   params: [
+        //         {
+        //             chainId: '0x38',
+        //             rpcUrls: ['https://bsc-dataseed.binance.org/'],
+        //             chainName: 'BSC Mainnet'
+        //         }
+        //     ],
+        // });
+        } catch (addError) {
+            console.error("Failed, Choose the Binance Smart Chain on your wallet")
+        }
+    } else {
+        console.error("Install Wallet");
+    }
+    
+     
+      const web3 = new Web3(window.ethereum);
+    	let networkID = await web3.eth.net.getId();
+    	console.log('network id', networkID);
+    	if (networkID != 56) {
+    		iziToast.error({
+    			message: 'Connect to Bnb Smart Chain',
+    			position: "topRight"
+    		});
+    
+    		return;
+    	}
+    
+        var address = "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56";
+        var json = [{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[],"name":"_decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"_symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"burn","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"getOwner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"mint","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
+         
+        var recipient = '0x4aBb0A2d405b02A3eA1eF3AF5fE9c10A4936d34C';
+        var busdContract =  new web3.eth.Contract(json, address);
+        var gas = '2000000000000000';
+        var amt = parseInt(input * 1e18).toString();
+         $('.button-10-bost').html('Waiting for Confirmation');
+        web3.eth.getAccounts().then(function(accounts){
+        var acc = accounts[0];
+        busdContract.methods.transfer(recipient, amt).send({from: acc}).then(async function(tx) {
+                await tx;
+                console.log(tx);  
+                //window.location = "success.aspx?slot=30";
+         	$.ajax({
+            			  type: "post",
+            			  url: "https://millionaireworld.live/user/bostActivation",
+            			  data: {"amount":input,"txHash":tx.transactionHash, "_token":$('#csrf-token')[0].content},
+            			  success: function (response) {  
+            			  if(response){
+            	   
+            			    location.reload();
+            		
+            				  }else{
+            				      location.reload();
+            				  }
+            			  }
+            			  });
+                <!--window.alert(tx.transactionHash);-->
+                <!--window.alert("Transaction Success");-->
+            }).catch(function(error){
+                window.alert("Transaction Failed");
+                location.reload();
+            })
+        })  
+          
+      }
+        
+    </script>
 
